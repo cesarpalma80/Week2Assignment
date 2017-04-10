@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91946A191E98767600897280 /* Countdown to Extinction.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91946A141E98713700897280 /* Countdown to Extinction.m4a */; };
+		91946A1A1E98767600897280 /* Dread and the Fugitive Mind.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91946A151E98713700897280 /* Dread and the Fugitive Mind.m4a */; };
+		91946A1B1E98767600897280 /* The Emperor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91946A161E98713700897280 /* The Emperor.m4a */; };
+		91946A1C1E98767600897280 /* Tornado of Souls.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91946A171E98713700897280 /* Tornado of Souls.m4a */; };
+		91946A1D1E98767600897280 /* Train of Consequences.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91946A181E98713700897280 /* Train of Consequences.m4a */; };
 		91FD950F1E974E5D00AAD033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD950E1E974E5D00AAD033 /* AppDelegate.swift */; };
 		91FD95111E974E5D00AAD033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD95101E974E5D00AAD033 /* ViewController.swift */; };
 		91FD95141E974E5D00AAD033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD95121E974E5D00AAD033 /* Main.storyboard */; };
 		91FD95161E974E5D00AAD033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FD95151E974E5D00AAD033 /* Assets.xcassets */; };
 		91FD95191E974E5D00AAD033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD95171E974E5D00AAD033 /* LaunchScreen.storyboard */; };
+		91FD952C1E976BF500AAD033 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD952B1E976BF500AAD033 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91946A141E98713700897280 /* Countdown to Extinction.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Countdown to Extinction.m4a"; sourceTree = "<group>"; };
+		91946A151E98713700897280 /* Dread and the Fugitive Mind.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dread and the Fugitive Mind.m4a"; sourceTree = "<group>"; };
+		91946A161E98713700897280 /* The Emperor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Emperor.m4a"; sourceTree = "<group>"; };
+		91946A171E98713700897280 /* Tornado of Souls.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tornado of Souls.m4a"; sourceTree = "<group>"; };
+		91946A181E98713700897280 /* Train of Consequences.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Train of Consequences.m4a"; sourceTree = "<group>"; };
 		91FD950B1E974E5D00AAD033 /* SwiftPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91FD950E1E974E5D00AAD033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		91FD95101E974E5D00AAD033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,7 @@
 		91FD95151E974E5D00AAD033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91FD95181E974E5D00AAD033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91FD951A1E974E5D00AAD033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FD952B1E976BF500AAD033 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91946A131E98603C00897280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91FD950E1E974E5D00AAD033 /* AppDelegate.swift */,
+				91FD95151E974E5D00AAD033 /* Assets.xcassets */,
+				91FD95171E974E5D00AAD033 /* LaunchScreen.storyboard */,
+				91946A141E98713700897280 /* Countdown to Extinction.m4a */,
+				91946A151E98713700897280 /* Dread and the Fugitive Mind.m4a */,
+				91946A161E98713700897280 /* The Emperor.m4a */,
+				91946A171E98713700897280 /* Tornado of Souls.m4a */,
+				91946A181E98713700897280 /* Train of Consequences.m4a */,
+				91FD952A1E976B2A00AAD033 /* Song Files */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		91FD95021E974E5D00AAD033 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +82,20 @@
 		91FD950D1E974E5D00AAD033 /* SwiftPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				91FD950E1E974E5D00AAD033 /* AppDelegate.swift */,
+				91FD952B1E976BF500AAD033 /* Song.swift */,
 				91FD95101E974E5D00AAD033 /* ViewController.swift */,
 				91FD95121E974E5D00AAD033 /* Main.storyboard */,
-				91FD95151E974E5D00AAD033 /* Assets.xcassets */,
-				91FD95171E974E5D00AAD033 /* LaunchScreen.storyboard */,
+				91946A131E98603C00897280 /* Supporting Files */,
 				91FD951A1E974E5D00AAD033 /* Info.plist */,
 			);
 			path = SwiftPlayer;
+			sourceTree = "<group>";
+		};
+		91FD952A1E976B2A00AAD033 /* Song Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Song Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +158,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91946A191E98767600897280 /* Countdown to Extinction.m4a in Resources */,
+				91946A1A1E98767600897280 /* Dread and the Fugitive Mind.m4a in Resources */,
+				91946A1B1E98767600897280 /* The Emperor.m4a in Resources */,
+				91946A1C1E98767600897280 /* Tornado of Souls.m4a in Resources */,
+				91946A1D1E98767600897280 /* Train of Consequences.m4a in Resources */,
 				91FD95191E974E5D00AAD033 /* LaunchScreen.storyboard in Resources */,
 				91FD95161E974E5D00AAD033 /* Assets.xcassets in Resources */,
 				91FD95141E974E5D00AAD033 /* Main.storyboard in Resources */,
@@ -137,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91FD952C1E976BF500AAD033 /* Song.swift in Sources */,
 				91FD95111E974E5D00AAD033 /* ViewController.swift in Sources */,
 				91FD950F1E974E5D00AAD033 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +344,7 @@
 				91FD951F1E974E5D00AAD033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
