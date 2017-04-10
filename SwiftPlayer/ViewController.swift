@@ -3,7 +3,7 @@
 //  SwiftPlayer
 //
 //  Created by Cesar on 06/04/17.
-//  Copyright © 2017 Metalbytes. All rights reserved.
+//  Copyright © 2017. All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,7 @@ import AVFoundation
 import GameplayKit
 
 final class ViewController: UIViewController {
-		
+	
 	// MARK: - IBOutles
 	@IBOutlet weak var coverAlbumImageView: UIImageView!
 	
@@ -56,11 +56,7 @@ final class ViewController: UIViewController {
 
 	}
 	
-	override func viewWillAppear(_ animated: Bool) {
-		super.viewWillAppear(animated)
-		tableView.reloadData()
-	}
-	
+
 	// MARK: - IBActions
 	@IBAction func play(_ sender: UIButton) {
 		if !audioPlayer.isPlaying {
@@ -143,19 +139,6 @@ final class ViewController: UIViewController {
 extension ViewController: UITableViewDelegate {
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		selectedSong = playlist[indexPath.row]
-		
-		songNameLabel.text = selectedSong.name
-		bandAlbumNameLabel.text = selectedSong.albumName
-		coverAlbumImageView.image = UIImage(named: selectedSong.albumArt)
-
-		for var song in playlist {
-			if song.name == selectedSong.name {
-				selectedSong = song
-				selectedSong.isPlaying = true
-			} else {
-				song.isPlaying = false
-			}
-		}
 		
 		playThis(song: selectedSong)
 		

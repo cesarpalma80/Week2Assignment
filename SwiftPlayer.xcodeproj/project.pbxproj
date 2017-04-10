@@ -16,7 +16,6 @@
 		91FD95111E974E5D00AAD033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD95101E974E5D00AAD033 /* ViewController.swift */; };
 		91FD95141E974E5D00AAD033 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD95121E974E5D00AAD033 /* Main.storyboard */; };
 		91FD95161E974E5D00AAD033 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FD95151E974E5D00AAD033 /* Assets.xcassets */; };
-		91FD95191E974E5D00AAD033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91FD95171E974E5D00AAD033 /* LaunchScreen.storyboard */; };
 		91FD952C1E976BF500AAD033 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FD952B1E976BF500AAD033 /* Song.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		91FD95101E974E5D00AAD033 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		91FD95131E974E5D00AAD033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91FD95151E974E5D00AAD033 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		91FD95181E974E5D00AAD033 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91FD951A1E974E5D00AAD033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91FD952B1E976BF500AAD033 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,12 +50,6 @@
 			children = (
 				91FD950E1E974E5D00AAD033 /* AppDelegate.swift */,
 				91FD95151E974E5D00AAD033 /* Assets.xcassets */,
-				91FD95171E974E5D00AAD033 /* LaunchScreen.storyboard */,
-				91946A141E98713700897280 /* Countdown to Extinction.m4a */,
-				91946A151E98713700897280 /* Dread and the Fugitive Mind.m4a */,
-				91946A161E98713700897280 /* The Emperor.m4a */,
-				91946A171E98713700897280 /* Tornado of Souls.m4a */,
-				91946A181E98713700897280 /* Train of Consequences.m4a */,
 				91FD952A1E976B2A00AAD033 /* Song Files */,
 			);
 			name = "Supporting Files";
@@ -94,6 +86,11 @@
 		91FD952A1E976B2A00AAD033 /* Song Files */ = {
 			isa = PBXGroup;
 			children = (
+				91946A141E98713700897280 /* Countdown to Extinction.m4a */,
+				91946A151E98713700897280 /* Dread and the Fugitive Mind.m4a */,
+				91946A161E98713700897280 /* The Emperor.m4a */,
+				91946A171E98713700897280 /* Tornado of Souls.m4a */,
+				91946A181E98713700897280 /* Train of Consequences.m4a */,
 			);
 			name = "Song Files";
 			sourceTree = "<group>";
@@ -163,7 +160,6 @@
 				91946A1B1E98767600897280 /* The Emperor.m4a in Resources */,
 				91946A1C1E98767600897280 /* Tornado of Souls.m4a in Resources */,
 				91946A1D1E98767600897280 /* Train of Consequences.m4a in Resources */,
-				91FD95191E974E5D00AAD033 /* LaunchScreen.storyboard in Resources */,
 				91FD95161E974E5D00AAD033 /* Assets.xcassets in Resources */,
 				91FD95141E974E5D00AAD033 /* Main.storyboard in Resources */,
 			);
@@ -191,14 +187,6 @@
 				91FD95131E974E5D00AAD033 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		91FD95171E974E5D00AAD033 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				91FD95181E974E5D00AAD033 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

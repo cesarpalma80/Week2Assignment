@@ -62,7 +62,7 @@
                                             <constraint firstAttribute="width" constant="14" id="jx7-Re-p0g"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volume-medium" translatesAutoresizingMaskIntoConstraints="NO" id="j85-7U-oxr">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="volume-high" translatesAutoresizingMaskIntoConstraints="NO" id="j85-7U-oxr">
                                         <rect key="frame" x="304" y="236" width="17" height="14"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="17" id="rQb-Z1-I26"/>
@@ -82,6 +82,7 @@
                                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="minimumTrackTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="maximumTrackTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="thumbTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <action selector="volumeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="cas-ku-i0X"/>
                                         </connections>
@@ -107,10 +108,12 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vb9-dl-Cse">
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="48"/>
+                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="40" id="0XZ-3T-ahB"/>
                                                 </constraints>
                                                 <state key="normal" image="play"/>
+                                                <state key="highlighted" image="play_selected"/>
                                                 <connections>
                                                     <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gkc-SG-jHW"/>
                                                 </connections>
@@ -121,6 +124,7 @@
                                                     <constraint firstAttribute="width" constant="34" id="hed-HN-enc"/>
                                                 </constraints>
                                                 <state key="normal" image="pause"/>
+                                                <state key="highlighted" image="pause_selected"/>
                                                 <connections>
                                                     <action selector="pause:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wzJ-o7-G38"/>
                                                 </connections>
@@ -131,6 +135,8 @@
                                                     <constraint firstAttribute="width" constant="48" id="tgs-1B-f4q"/>
                                                 </constraints>
                                                 <state key="normal" image="stop"/>
+                                                <state key="selected" image="stop_selected"/>
+                                                <state key="highlighted" image="stop_selected"/>
                                                 <connections>
                                                     <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xwV-ab-o72"/>
                                                 </connections>
@@ -138,6 +144,8 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LHM-5O-5sC">
                                                 <rect key="frame" x="212" y="0.0" width="56" height="48"/>
                                                 <state key="normal" image="shuffle"/>
+                                                <state key="selected" image="shuffle_selected"/>
+                                                <state key="highlighted" image="shuffle_selected"/>
                                                 <connections>
                                                     <action selector="shuffle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="43q-SG-WMW"/>
                                                 </connections>
@@ -208,10 +216,14 @@
     <resources>
         <image name="02" width="345" height="350"/>
         <image name="pause" width="51" height="72"/>
+        <image name="pause_selected" width="16" height="16"/>
         <image name="play" width="60" height="72"/>
+        <image name="play_selected" width="16" height="16"/>
         <image name="shuffle" width="84" height="72"/>
+        <image name="shuffle_selected" width="16" height="16"/>
         <image name="stop" width="72" height="72"/>
-        <image name="volume-low" width="42" height="42"/>
-        <image name="volume-medium" width="51" height="42"/>
+        <image name="stop_selected" width="16" height="16"/>
+        <image name="volume-high" width="112" height="96"/>
+        <image name="volume-low" width="51" height="78"/>
     </resources>
 </document>
