@@ -203,10 +203,7 @@
                         <outlet property="bandAlbumNameLabel" destination="aOW-Dm-mqG" id="zcw-bk-hd0"/>
                         <outlet property="coverAlbumImageView" destination="5LN-4X-6Nv" id="s8v-XS-7Vl"/>
                         <outlet property="displayView" destination="jEq-3J-ycB" id="rem-eb-77U"/>
-                        <outlet property="pauseButton" destination="Sju-4a-XOQ" id="W4X-Qm-tPe"/>
-                        <outlet property="playButton" destination="vb9-dl-Cse" id="mXw-Xb-axD"/>
-                        <outlet property="shuffleButton" destination="LHM-5O-5sC" id="xrb-zl-wAk"/>
-                        <outlet property="slider" destination="sGb-rf-bTj" id="eLf-Xg-woa"/>
+                        <outlet property="slider" destination="sGb-rf-bTj" id="Cci-xQ-Xak"/>
                         <outlet property="songNameLabel" destination="Uce-BB-6Lo" id="cQm-Ld-ZCb"/>
                         <outlet property="stopButton" destination="9G4-dP-caC" id="RtC-9Y-9rU"/>
                         <outlet property="tableView" destination="Fb5-fc-jpu" id="4SO-uJ-oRr"/>

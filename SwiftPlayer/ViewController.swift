@@ -14,25 +14,16 @@ final class ViewController: UIViewController {
 	
 	// MARK: - IBOutles
 	@IBOutlet weak var coverAlbumImageView: UIImageView!
-	
-	@IBOutlet weak var playButton: UIButton!
-	@IBOutlet weak var pauseButton: UIButton!
 	@IBOutlet weak var stopButton: UIButton!
-	@IBOutlet weak var shuffleButton: UIButton!
-	
 	@IBOutlet weak var slider: UISlider!
-	
 	@IBOutlet weak var displayView: UIView!
-	
 	@IBOutlet weak var songNameLabel: UILabel!
 	@IBOutlet weak var bandAlbumNameLabel: UILabel!
-	
 	@IBOutlet weak var tableView: UITableView!
 	
 	// MARK: - Properties
 	
 	fileprivate var audioPlayer = AVAudioPlayer()
-	
 	fileprivate var playlist = [Song]()
 	fileprivate var songVolume = Float()
 	fileprivate var selectedSong: Song!
