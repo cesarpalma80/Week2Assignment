@@ -205,7 +205,6 @@
                         <outlet property="displayView" destination="jEq-3J-ycB" id="rem-eb-77U"/>
                         <outlet property="slider" destination="sGb-rf-bTj" id="Cci-xQ-Xak"/>
                         <outlet property="songNameLabel" destination="Uce-BB-6Lo" id="cQm-Ld-ZCb"/>
-                        <outlet property="stopButton" destination="9G4-dP-caC" id="RtC-9Y-9rU"/>
                         <outlet property="tableView" destination="Fb5-fc-jpu" id="4SO-uJ-oRr"/>
                     </connections>
                 </viewController>

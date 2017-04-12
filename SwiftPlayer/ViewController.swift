@@ -15,7 +15,6 @@ final class ViewController: UIViewController {
 	// MARK: - IBOutles
 	
 	@IBOutlet weak var coverAlbumImageView: UIImageView!
-	@IBOutlet weak var stopButton: UIButton!
 	@IBOutlet weak var slider: UISlider!
 	@IBOutlet weak var displayView: UIView!
 	@IBOutlet weak var songNameLabel: UILabel!
