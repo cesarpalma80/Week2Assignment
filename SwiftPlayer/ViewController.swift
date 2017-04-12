@@ -13,6 +13,7 @@ import GameplayKit
 final class ViewController: UIViewController {
 	
 	// MARK: - IBOutles
+	
 	@IBOutlet weak var coverAlbumImageView: UIImageView!
 	@IBOutlet weak var stopButton: UIButton!
 	@IBOutlet weak var slider: UISlider!
@@ -49,6 +50,7 @@ final class ViewController: UIViewController {
 	
 
 	// MARK: - IBActions
+	
 	@IBAction func play(_ sender: UIButton) {
 		if !audioPlayer.isPlaying {
 			audioPlayer.play()
@@ -127,6 +129,7 @@ final class ViewController: UIViewController {
 }
 
 // MARK: - UITableViewDelegate
+
 extension ViewController: UITableViewDelegate {
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		selectedSong = playlist[indexPath.row]
@@ -139,6 +142,7 @@ extension ViewController: UITableViewDelegate {
 }
 
 // MARK: - UITableViewDataSource
+
 extension ViewController: UITableViewDataSource {
 	
 	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
