@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9115C64F1EA43F3600E23D3B /* mockup_SwfitPlayer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9115C64E1EA43F3600E23D3B /* mockup_SwfitPlayer.jpeg */; };
 		91946A191E98767600897280 /* Countdown to Extinction.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91946A141E98713700897280 /* Countdown to Extinction.m4a */; };
 		91946A1A1E98767600897280 /* Dread and the Fugitive Mind.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91946A151E98713700897280 /* Dread and the Fugitive Mind.m4a */; };
 		91946A1B1E98767600897280 /* The Emperor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 91946A161E98713700897280 /* The Emperor.m4a */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9115C64E1EA43F3600E23D3B /* mockup_SwfitPlayer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mockup_SwfitPlayer.jpeg; sourceTree = "<group>"; };
 		91946A141E98713700897280 /* Countdown to Extinction.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Countdown to Extinction.m4a"; sourceTree = "<group>"; };
 		91946A151E98713700897280 /* Dread and the Fugitive Mind.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dread and the Fugitive Mind.m4a"; sourceTree = "<group>"; };
 		91946A161E98713700897280 /* The Emperor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Emperor.m4a"; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		91946A131E98603C00897280 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9115C64E1EA43F3600E23D3B /* mockup_SwfitPlayer.jpeg */,
 				91FD950E1E974E5D00AAD033 /* AppDelegate.swift */,
 				91FD95151E974E5D00AAD033 /* Assets.xcassets */,
 				91FD952A1E976B2A00AAD033 /* Song Files */,
@@ -158,6 +161,7 @@
 				91946A191E98767600897280 /* Countdown to Extinction.m4a in Resources */,
 				91946A1A1E98767600897280 /* Dread and the Fugitive Mind.m4a in Resources */,
 				91946A1B1E98767600897280 /* The Emperor.m4a in Resources */,
+				9115C64F1EA43F3600E23D3B /* mockup_SwfitPlayer.jpeg in Resources */,
 				91946A1C1E98767600897280 /* Tornado of Souls.m4a in Resources */,
 				91946A1D1E98767600897280 /* Train of Consequences.m4a in Resources */,
 				91FD95161E974E5D00AAD033 /* Assets.xcassets in Resources */,
